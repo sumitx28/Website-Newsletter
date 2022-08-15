@@ -44,7 +44,7 @@ app.post("/" , (req , res) => {
             res.sendFile(__dirname + "/failure.html");
         }
         else{
-            res.sendFile(__dirname + "/signup.html");
+            res.sendFile(__dirname + "/success.html");
         }
 
         // response.on("data" , function(data){
